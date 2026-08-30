@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>見学会・ご相談のご予約 | 九頭竜建築舎</title>
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="wrap nav__inner">
+    <a class="brand" href="index.html">九頭竜建築舎<span>KUZURYU KENCHIKUSHA</span></a>
+    <nav class="nav__links">
+      <a href="index.html#works">施工事例</a>
+      <a href="index.html#price">価格の目安</a>
+      <a href="index.html#access">アクセス</a>
+    </nav>
+    <a class="btn btn--ghost nav__cta" href="index.html">トップへ戻る</a>
+  </div>
+</header>
+
+<section class="page-head">
+  <div class="wrap">
+    <p class="eyebrow">Reservation</p>
+    <h1>見学会・ご相談のご予約</h1>
+  </div>
+</section>
+
+<section class="resv">
+  <div class="wrap resv__grid">
+    <div>
+      <p class="lead">完成見学会・構造見学会・資金相談のいずれも、このフォームからご予約いただけます。担当より1営業日以内にご連絡し、日程を確定いたします。</p>
+      <form class="form" id="contactForm" style="margin-top:36px">
+        <div class="field">
+          <label for="name">お名前<span class="req">必須</span></label>
+          <input type="text" id="name" name="name" required placeholder="福井 太郎">
+        </div>
+        <div class="field field--row">
+          <div>
+            <label for="email">メールアドレス<span class="req">必須</span></label>
+            <input type="email" id="email" name="email" required placeholder="you@example.com">
+          </div>
+          <div>
+            <label for="tel">お電話番号<span class="req">必須</span></label>
+            <input type="tel" id="tel" name="tel" required placeholder="0776-00-0000">
+          </div>
+        </div>
+        <div class="field">
+          <label for="menu">ご希望の内容<span class="req">必須</span></label>
+          <select id="menu" name="menu" required>
+            <option value="">お選びください</option>
+            <option>完成見学会（月2回程度・土日開催・無料）</option>
+            <option>構造見学会（現場の進捗により随時・無料）</option>
+            <option>資金・土地相談会（平日中心・要予約・無料）</option>
+            <option>リフォームの相談</option>
+            <option>資料請求のみ</option>
+          </select>
+        </div>
+        <div class="field field--row">
+          <div>
+            <label for="date">ご希望日<span class="req">必須</span></label>
+            <input type="date" id="date" name="date" required>
+          </div>
+          <div>
+            <label for="time">ご希望の時間</label>
+            <select id="time" name="time">
+              <option>10:00</option>
+              <option>11:00</option>
+              <option>13:00</option>
+              <option>14:00</option>
+              <option>15:00</option>
+              <option>16:00</option>
+            </select>
+          </div>
+        </div>
+        <div class="field field--row">
+          <div>
+            <label for="land">土地の有無</label>
+            <select id="land" name="land">
+              <option>すでに土地がある</option>
+              <option>土地を探している</option>
+              <option>建て替えを検討中</option>
+              <option>リフォームのみ検討中</option>
+              <option>まだ何も決めていない</option>
+            </select>
+          </div>
+          <div>
+            <label for="timing">ご検討の時期</label>
+            <input type="text" id="timing" name="timing" placeholder="半年以内／1〜2年以内／未定 など">
+          </div>
+        </div>
+        <div class="field">
+          <label for="message">ご質問・ご要望</label>
+          <textarea id="message" name="message" placeholder="敷地の広さ、ご予算の目安、気になっている仕様など、なんでもお書きください。"></textarea>
+          <p class="field__hint">当日までにお調べしておきます。</p>
+        </div>
+        <div class="form__actions">
+          <button type="submit" class="btn btn--primary">この内容で予約する</button>
+          <p class="form__note">送信いただいた内容は、ご予約の確認とご連絡にのみ使用します。</p>
+        </div>
+      </form>
+    </div>
+
+    <aside class="aside">
+      <h3>ご来場にあたって</h3>
+      <ul>
+        <li>完成見学会は所要約1時間です。お子様連れでもお越しいただけます。</li>
+        <li>駐車場は6台ございます。台数が多い場合は近隣の駐車場をご案内します。</li>
+        <li>資金・土地相談会はファイナンシャルプランナーが同席する回があります。</li>
+        <li>その場で概算のお見積りをお出しすることも可能です。</li>
+        <li>当日のご来場をご希望の場合は、お電話（0776-00-0000）かチャットでお尋ねください。</li>
+        <li>ご予約後のキャンセル・日程変更は、前日までにご連絡いただければ問題ありません。</li>
+      </ul>
+      <p class="demo-notice">これはチャットボット導入テスト用のデモサイトです。実際の工務店・予約受付は存在しません。送信ボタンを押しても、どこにも送信されません。</p>
+    </aside>
+  </div>
+</section>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot__bottom" style="margin-top:0;border-top:0;padding-top:0">
+      <span>&copy; 九頭竜建築舎（デモサイト）</span>
+      <span class="demo-pill">Demo Site</span>
+    </div>
+  </div>
+</footer>
+
+<div class="test-banner">🔧 <b>TEST SITE</b> — これはチャットボット導入テスト用のデモサイトです。実際の工務店ではありません。</div>
+
+<script>
+  document.getElementById('contactForm').addEventListener('submit', function(e){
+    e.preventDefault();
+    alert('デモサイトのため、実際には送信されません。\n\n実際のサイトでは、この内容が工務店へ届きます。');
+  });
+</script>
+
+<!-- LIENS BOT チャットウィジェット -->
+<!-- ⚠️ data-bot-id は index.html と同じIDに差し替えること -->
+<script>
+  (function() {
+    var botId = 'cmtfg8xrb04av4201zhd2yfy1';
+    if (botId.indexOf('REPLACE_') === 0) { return; }
+    var script = document.createElement('script');
+    script.src = 'https://app.liens-web.com/widget.js?v=' + Date.now();
+    script.setAttribute('data-bot-id', botId);
+    script.setAttribute('data-api-url', 'https://app.liens-web.com');
+    script.setAttribute('data-color', '#e8471f');
+    script.setAttribute('data-position', 'bottom-right');
+    script.defer = true;
+    document.head.appendChild(script);
+  })();
+</script>
+</body>
+</html>
